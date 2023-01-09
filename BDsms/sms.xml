@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "BDsms.dtd">
+<BDsms>
+    <sms>
+        <telefono>666 25 85 68</telefono>
+        <fecha>09/01/2023</fecha>
+        <hora>12:15</hora>
+        <mensaje>Hola, cuando nos volvemos a ver?</mensaje>
+    </sms>
+    <sms>
+        <telefono>697 63 54 21</telefono>
+        <fecha>12/06/2019</fecha>
+        <hora>21:56</hora>
+        <mensaje>Pasame cuando puedas el ejercicio 7 de Historia, muchas gracias OwO</mensaje>
+    </sms>
+    <sms>
+        <telefono>689 65 32 12</telefono>
+        <fecha>01/02/2010</fecha>
+        <hora>23:58</hora>
+        <mensaje>Acabamos de salir de ver Avatar. Peli de aliens raros, esta muy chula es bonita</mensaje>
+        <mensaje>Eso si me he mareao con las gafas 3D</mensaje>
+    </sms>
+    <sms>
+        <telefono>654 24 56 25</telefono>
+        <fecha>05/10/2007</fecha>
+        <hora>10:27</hora>
+        <mensaje>Enviar MONO al 1415 para tener el politono de Melody - El Baile del Gorila</mensaje>
+    </sms>
+    <sms>
+        <telefono>600 80 54 29</telefono>
+        <fecha>07/11/2021</fecha>
+        <hora>14:58</hora>
+        <mensaje>Cari hoy de comer nuggets, con patatas</mensaje>
+        <mensaje>Bueno pasalo bien en clase</mensaje>
+    </sms>
+</BDsms>
