@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--DOCTYPE BDsms SYSTEM "BDsms.dtd" -->
-<BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="BDsmsSchema.xsd">
+<BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NoschemaLocation="BDsmsSchema.xsd">
     <sms>
         <telefono>666 25 85 68</telefono>
         <fecha>09/01/2023</fecha>

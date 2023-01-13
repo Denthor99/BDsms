@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--!DOCTYPE Libreria SYSTEM "Libreria.dtd"-->
+<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd">
+<libros>
+        <codigo_de_libro>0010</codigo_de_libro>
+        <titulo>El Imperio Final</titulo>
+        <editorial>B DE BOLSILLO</editorial>
+        <edicion>2008</edicion>
+        <isbn>9788413143194</isbn>
+        <num_paginas>688</num_paginas>
+        <autor>Brandon Sanderson</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0011</codigo_de_libro>
+        <titulo>El Resplandor (The Shinning)</titulo>
+        <editorial>DEBOLSILLO</editorial>
+        <edicion>2006</edicion>
+        <isbn>9788466357319</isbn>
+        <num_paginas>656</num_paginas>
+        <autor>Stephen King</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0012</codigo_de_libro>
+        <titulo>Se tiene que morir mucha gente</titulo>
+        <editorial>PLAZA Y JANES</editorial>
+        <edicion>2022</edicion>
+        <isbn>9788401027215</isbn>
+        <num_paginas>256</num_paginas>
+        <autor>Victoria Martin de la Cova</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0013</codigo_de_libro>
+        <titulo>Cuentos Inconclusos</titulo>
+        <editorial>Minotauro</editorial>
+        <edicion>2021</edicion>
+        <isbn>9788445004326</isbn>
+        <num_paginas>548</num_paginas>
+        <autor>John R.R. Tolkien</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0014</codigo_de_libro>
+        <titulo>Y ahora supera mi beso</titulo>
+        <editorial>Planeta</editorial>
+        <edicion>2022</edicion>
+        <isbn>9788408264293</isbn>
+        <num_paginas>576</num_paginas>
+        <autor>Megan Maxwell</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0015</codigo_de_libro>
+        <titulo>Verbolario</titulo>
+        <editorial>Random House</editorial>
+        <edicion>2022</edicion>
+        <isbn>9788439740742</isbn>
+        <num_paginas>216</num_paginas>
+        <autor>Rodrigo Cortes</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0016</codigo_de_libro>
+        <titulo>La chica del tren</titulo>
+        <editorial>Booket</editorial>
+        <edicion>2021</edicion>
+        <isbn>9788408263715</isbn>
+        <num_paginas>496</num_paginas>
+        <autor>Paula Hawkins</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0017</codigo_de_libro>
+        <titulo>Los renglones torcidos de Dios</titulo>
+        <editorial>Austral</editorial>
+        <edicion>2010</edicion>
+        <isbn>9788408093497</isbn>
+        <num_paginas>448</num_paginas>
+        <autor>Torcuato Luca de Tena</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0018</codigo_de_libro>
+        <titulo>Todo Arde</titulo>
+        <editorial>Ediciones B</editorial>
+        <edicion>2022</edicion>
+        <isbn>9788466672474</isbn>
+        <num_paginas>600</num_paginas>
+        <autor>Juan Gomez Jurado</autor>
+    </libros>
+    <libros>
+        <codigo_de_libro>0019</codigo_de_libro>
+        <titulo>La Guerra de las Dos Reinas</titulo>
+        <editorial>Puck</editorial>
+        <edicion>2022</edicion>
+        <isbn>9788417854836</isbn>
+        <num_paginas>800</num_paginas>
+        <autor>Jennifer L. Armentrout</autor>
+    </libros>
+</Libreria>
