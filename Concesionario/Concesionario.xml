@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
+<Concesionario>
+    <coches>
+        <cod_coche>MC/0001</cod_coche>
+        <marca>Mercedes Benz</marca>
+        <modelo>CLA 250</modelo>
+        <matricula>0973 HZU</matricula>
+        <potencia>224 CV</potencia>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>RN/0002</cod_coche>
+        <marca>Renault</marca>
+        <modelo>Twingo</modelo>
+        <matricula>4728 RAF</matricula>
+        <potencia>82 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>5</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>PG/0003</cod_coche>
+        <marca>Peugeot</marca>
+        <modelo>2008 GT</modelo>
+        <matricula>4023 ZDW</matricula>
+        <potencia>156 CV</potencia>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>PG/0004</cod_coche>
+        <marca>Peugeot</marca>
+        <modelo>107</modelo>
+        <matricula>9384 ORL</matricula>
+        <potencia>68 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>3</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>BW/0005</cod_coche>
+        <marca>BMW</marca>
+        <modelo>Serie 3 325i</modelo>
+        <matricula>5905 POD</matricula>
+        <potencia>170 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>3</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>SM/0006</cod_coche>
+        <marca>SIMCA</marca>
+        <modelo>5</modelo>
+        <matricula>6366 HQL</matricula>
+        <potencia>12 CV</potencia>
+        <plazas>2</plazas>
+        <num_puertas>2</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>CD/0007</cod_coche>
+        <marca>Cadillac</marca>
+        <modelo>Fleetwood Brougham</modelo>
+        <matricula>5115 ZYH</matricula>
+        <potencia>375 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>5</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>BW/0008</cod_coche>
+        <marca>BMW</marca>
+        <modelo>Z1 2.5</modelo>
+        <matricula>6676 KGX</matricula>
+        <potencia>170 CV</potencia>
+        <plazas>2</plazas>
+        <num_puertas>2</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>CT/0009</cod_coche>
+        <marca>Citroen</marca>
+        <modelo>2CV</modelo>
+        <matricula>2514 FYS</matricula>
+        <potencia>29 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>4</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>PS/0010</cod_coche>
+        <marca>Porsche</marca>
+        <modelo>944 S2</modelo>
+        <matricula>1416 FRM</matricula>
+        <potencia>211 CV</potencia>
+        <plazas>2</plazas>
+        <num_puertas>2</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>FD/0011</cod_coche>
+        <marca>Ford</marca>
+        <modelo>F-100</modelo>
+        <matricula>0424 DNB</matricula>
+        <potencia>152 CV</potencia>
+        <plazas>2</plazas>
+        <num_puertas>2</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>FD/0012</cod_coche>
+        <marca>Ford</marca>
+        <modelo>Fiesta XR2</modelo>
+        <matricula>2949 AYJ</matricula>
+        <potencia>60 CV</potencia>
+        <plazas>4</plazas>
+        <num_puertas>3</num_puertas>
+    </coches>
+    <coches>
+        <cod_coche>PS/0013</cod_coche>
+        <marca>Porsche</marca>
+        <modelo>911 3.3 Turbo Coupé</modelo>
+        <matricula>8805 OPH</matricula>
+        <potencia>299 CV</potencia>
+        <plazas>2</plazas>
+        <num_puertas>3</num_puertas>
+    </coches>
+
+</Concesionario>

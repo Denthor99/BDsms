@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--!DOCTYPE Libreria SYSTEM "Libreria.dtd"-->
-<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd">
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
+<Libreria>
 <libros>
         <codigo_de_libro>0010</codigo_de_libro>
         <titulo>El Imperio Final</titulo>
