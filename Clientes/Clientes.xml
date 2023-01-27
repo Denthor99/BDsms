@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<Clientes>
+    <Sede codigo="B453-564">
+        <direccion>Calle La Oliva s/n, Jerez de la Frontera</direccion>
+        <nom_empleado>Roberto Robles</nom_empleado>
+        <fech_alta>2023/01/14</fech_alta>
+        <cliente codigo="KRE-334">
+            <descripcion>Solvente</descripcion>
+            <num_viviendas>2</num_viviendas>
+            <vivienda id="001">
+                <coste_vivienda>120000</coste_vivienda>
+                <resumen>Piso a las afueras de Valencia</resumen>
+                <plazo_alta>2022/10/29</plazo_alta>
+            </vivienda>
+            <vivienda id="002">
+                <coste_vivienda>480000</coste_vivienda>
+                <resumen>Pequeño Chalet con dos plantas y garage, cuenta con </resumen>
+                <plazo_alta>1999/04/15</plazo_alta>
+            </vivienda>
+        </cliente>
+    </Sede>
+    <Sede codigo="R561-780">
+        <direccion>Calle Padre Luis Nº4, Algeciras</direccion>
+        <nom_empleado>Pepe Viyuela</nom_empleado>
+        <fech_alta>2022/03/23</fech_alta>
+        <cliente codigo="DAN-948">
+            <descripcion>Insolvente</descripcion>
+            <num_viviendas>1</num_viviendas>
+            <vivienda id="003">
+                <coste_vivienda>950000</coste_vivienda>
+                <resumen>Chalet de tres plantas con un gran jardín, piscina y helipuerto</resumen>
+                <plazo_alta>2007/01/31</plazo_alta>
+            </vivienda>
+        </cliente>
+    </Sede>
+</Clientes>
