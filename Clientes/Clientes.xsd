@@ -1,5 +1,5 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="Clientes">
+    <xs:element name="Sedes">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="Sede" minOccurs="1" maxOccurs="unbounded">
