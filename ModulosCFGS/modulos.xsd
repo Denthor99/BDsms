@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="moodulos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modulo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="contenido" type="contenidoType"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="contenidoType">
+        <xs:sequence>
+            <xs:element name="ud"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

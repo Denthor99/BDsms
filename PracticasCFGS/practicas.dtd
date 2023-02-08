@@ -2,7 +2,7 @@
 <!ELEMENT alumno (nif, resultado, observaciones?, (ip|mac))>
 <!ELEMENT nif (#PCDATA)>
 <!ELEMENT resultado (#PCDATA)>
-<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT observaciones ANY>
 <!ELEMENT anhos (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
 <!ELEMENT ip (#PCDATA)>

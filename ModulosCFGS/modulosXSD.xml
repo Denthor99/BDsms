@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulos.xsd">
+    <modulo>
+        <nombre>Programación</nombre>
+		<contenido>
+            <ud numUD="01">
+                <tipo>Introducción a la Programación</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud numUD="02">
+                <tipo>Introducción a la Programación Orientada a Objetos y Java</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud numUD="03">
+                <tipo>Utilización de Objetos</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud numUD="04">
+                <tipo>Estructura de Datos</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenido>
+	</modulo>
+</modulos>

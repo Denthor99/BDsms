@@ -4,7 +4,7 @@
 	<alumno>
 		<nif>95555555K</nif>
 		<resultado>Apto</resultado>
-		<observaciones>Buenos días</observaciones>
+		<observaciones>Tiene actualmente unos <anhos>26</anhos>y vive en <poblacion>Guadalema de los Quinteros</poblacion></observaciones>
 		<ip>172.168.1.1</ip> <!-- Los alumnos tienen IP o MAC pero no ambas -->
 	</alumno>
 	<alumno>
@@ -15,6 +15,7 @@
 	<alumno>
 		<nif>32899601X</nif>
 		<resultado>No Apto</resultado>
+		<observaciones>Recién acaba de cumplir los <anhos>19</anhos></observaciones>
 		<ip> 192.158.1.38</ip>
 	</alumno>
 </practicas>

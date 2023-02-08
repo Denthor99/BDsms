@@ -2,14 +2,38 @@
     <xs:element name="practicas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="alumno" maxOccurs="unbounded">
+                <xs:element name="alumno" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            
+                            <xs:element name="nif" type="nifRestrict"/>
+                            <xs:element name="resultado" type="resultadoRestrict"/>
+                            <xs:element name="observaciones" type="observacionRestrict" minOccurs="0"/>
+                            <xs:choice>
+                                <xs:element name="ip" type="xs:string"/>
+                                <xs:element name="mac" type="xs:string"/>
+                            </xs:choice>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="nifRestrict">
+        <xs:restriction base="xs:string">
+            <xs:length value="9"/>
+            <xs:pattern value="[0-9]{8}[A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="resultadoRestrict">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Apto"/>
+            <xs:enumeration value="No Apto"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="observacionRestrict" mixed="true">
+        <xs:sequence>
+            <xs:element name="anhos" type="xs:positiveInteger"/>
+            <xs:element name="poblacion" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>

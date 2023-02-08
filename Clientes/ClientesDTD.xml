@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Sedes SYSTEM "Clientes.dtd">
-<Sedes>
+<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<Clientes>
     <Sede codigo="B453-564">
         <direccion>Calle La Oliva s/n, Jerez de la Frontera</direccion>
         <nom_empleado>Roberto Robles</nom_empleado>
@@ -34,4 +34,4 @@
             </vivienda>
         </cliente>
     </Sede>
-</Sedes>
+</Clientes>

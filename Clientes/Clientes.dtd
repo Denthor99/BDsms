@@ -1,5 +1,5 @@
-<!ELEMENT Sedes (Sede*)>
-<!ELEMENT Sede (direccion+,nom_empleado,fech_alta,cliente)>
+<!ELEMENT Clientes (Sede*)>
+<!ELEMENT Sede (direccion+,nom_empleado,fech_alta,cliente*)>
 <!ATTLIST Sede codigo CDATA #REQUIRED>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT nom_empleado (#PCDATA)>
@@ -9,7 +9,7 @@
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT num_viviendas (#PCDATA)>
 <!ELEMENT vivienda (coste_vivienda, resumen, plazo_alta)>
-<!ATTLIST vivienda id NMTOKEN #REQUIRED>
+<!ATTLIST vivienda id CDATA #REQUIRED>
 <!ELEMENT coste_vivienda (#PCDATA)>
 <!ELEMENT resumen (#PCDATA)>
 <!ELEMENT plazo_alta (#PCDATA)>
