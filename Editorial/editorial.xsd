@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="editorial" type="editorialInforme"/>
+        <xs:complexType name="editorialInforme">
+            <xs:sequence>
+                <xs:element name="informe" type="informe_tabla"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="informe_tabla">
+            <xs:sequence>
+                <xs:element name="cabecera_informe" type="cabeceraInforme"/>
+                <xs:element name="datos_informe" type="datosInforme"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="cabeceraInforme">
+            <xs:sequence>
+                <xs:element name="nombre_editorial" type="xs:string"/>
+                <xs:element name="nombre_informe" type="xs:string"/>
+                <xs:element name="descripcion" type="xs:string"/>
+                <xs:element name="fecha_informe" type="xs:date"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="datosInforme">
+            <xs:sequence>
+                <xs:element name="region" type="regionesInforme"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="regionesInforme" mixed="true">
+            <xs:sequence>
+                <xs:element name="norte" type="norteInforme"/>
+                <xs:element name="centro" type="centroInforme"/>
+                <xs:element name="sur" type="surInforme"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="norteInforme" mixed="true">
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="trimestre" type="TrimestreInforme" maxOccurs="4"/>
+                    <xs:element name="librosVendidos" type="xs:string" default="NO_INFO"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="centroInforme" mixed="true">
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="trimestre" type="TrimestreInforme" maxOccurs="4"/>
+                    <xs:element name="librosVendidos" type="xs:string" default="NO_INFO"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="surInforme" mixed="true">
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="trimestre" type="TrimestreInforme" maxOccurs="4"/>
+                    <xs:element name="librosVendidos" type="xs:string" default="NO_INFO"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:simpleType name="TrimestreInforme">
+            <xs:restriction base="xs:positiveInteger">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="4"/>
+            </xs:restriction>
+        </xs:simpleType>
+</xs:schema>

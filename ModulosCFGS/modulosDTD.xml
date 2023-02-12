@@ -3,10 +3,10 @@
 <modulos>
     <modulo>
         <nombre>Programación</nombre>
-		<contenido>
+		<contenidos>
             <ud numUD="01">
                 <tipo>Introducción a la Programación</tipo>
-                <descripcion></descripcion>
+                <descripcion>Pseudocodigo</descripcion>
             </ud>
             <ud numUD="02">
                 <tipo>Introducción a la Programación Orientada a Objetos y Java</tipo>
@@ -14,12 +14,16 @@
             </ud>
             <ud numUD="03">
                 <tipo>Utilización de Objetos</tipo>
-                <descripcion></descripcion>
+                <descripcion>Herencia, interfaces</descripcion>
             </ud>
             <ud numUD="04">
                 <tipo>Estructura de Datos</tipo>
-                <descripcion></descripcion>
+                <descripcion>Arrays</descripcion>
             </ud>
-        </contenido>
+            <ud numUD="05">
+                <tipo>Tipos de datos abastractos</tipo>
+                <descripcion>Colecciones</descripcion>
+            </ud>
+        </contenidos>
 	</modulo>
 </modulos>

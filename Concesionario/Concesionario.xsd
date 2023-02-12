@@ -5,17 +5,22 @@
                 <xs:element name="coches" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="cod_coche" type="xs:string"/>
                             <xs:element name="marca" type="xs:string"/>
                             <xs:element name="modelo" type="xs:string"/>
                             <xs:element name="matricula" type="xs:string"/>
                             <xs:element name="potencia" type="xs:string"/>
-                            <xs:element name="plazas" type="xs:unsignedByte" default="2"/>
-                            <xs:element name="num_puertas" type="xs:unsignedByte"/>
+                            <xs:element name="plazas" type="xs:positiveInteger" default="2"/>
+                            <xs:element name="num_puertas" type="xs:positiveInteger" default="2"/>
                         </xs:sequence>
+                        <xs:attribute name="cod_coche" type="id_coche" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="id_coche">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}/[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

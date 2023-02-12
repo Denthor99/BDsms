@@ -2,23 +2,41 @@
 <modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulos.xsd">
     <modulo>
         <nombre>Programación</nombre>
-		<contenido>
+		<contenidos>
             <ud numUD="01">
                 <tipo>Introducción a la Programación</tipo>
-                <descripcion></descripcion>
+                <descripcion>Pseudocodigo</descripcion>
             </ud>
             <ud numUD="02">
                 <tipo>Introducción a la Programación Orientada a Objetos y Java</tipo>
-                <descripcion></descripcion>
+                <descripcion>Netbeans Vs IntelliJ como IDE principal</descripcion>
             </ud>
             <ud numUD="03">
                 <tipo>Utilización de Objetos</tipo>
-                <descripcion></descripcion>
+                <descripcion>Herencia, Interfaces</descripcion>
             </ud>
             <ud numUD="04">
                 <tipo>Estructura de Datos</tipo>
-                <descripcion></descripcion>
+                <descripcion>Arrays</descripcion>
             </ud>
-        </contenido>
+            <ud numUD="05">
+                <tipo>Tipos de datos abstractos</tipo>
+                <descripcion/>
+            </ud>
+        </contenidos>
 	</modulo>
+    <modulo>
+        <nombre>Bases de datos</nombre>
+        <contenidos>
+            <ud numUD="01">
+                <tipo>Introduccion a las bases de datos</tipo>
+                <descripcion/>
+            </ud>
+            <ud numUD="02">
+                <tipo>Bases de datos Relacionales</tipo>
+                <descripcion>Conceptos básicos de este tipo de base de datos</descripcion>
+
+            </ud>
+        </contenidos>
+    </modulo>
 </modulos>

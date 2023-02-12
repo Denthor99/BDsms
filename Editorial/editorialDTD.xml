@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE editorial SYSTEM "editorial.dtd">
+<editorial>
+    <informe>
+        <cabecera_informe>
+            <nombre_editorial>Ediciones Aranda</nombre_editorial>
+            <nombre_informe>Informe regional de ventas</nombre_informe>
+            <descripcion>informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+            <fecha_informe>2009-12-30</fecha_informe>
+        </cabecera_informe>
+        <datos_informe>
+            <region>
+                <norte>Norte
+                    <trimestre>1</trimestre>
+                        <librosVendidos>24000</librosVendidos>
+                    <trimestre>2</trimestre>
+                        <librosVendidos>38600</librosVendidos>
+                    <trimestre>3</trimestre>
+                        <librosVendidos>NO_INFO</librosVendidos>
+                    <trimestre>4</trimestre>
+                        <librosVendidos>NO_INFO</librosVendidos>
+                </norte>
+                <centro>Centro
+                    <trimestre>1</trimestre>
+                        <librosVendidos>NO_INFO</librosVendidos>
+                    <trimestre>2</trimestre>
+                        <librosVendidos>16080</librosVendidos>
+                    <trimestre>3</trimestre>
+                        <librosVendidos>25000</librosVendidos>
+                    <trimestre>4</trimestre>
+                        <librosVendidos>29000</librosVendidos>
+                </centro>
+                <sur>Sur
+                    <trimestre>1</trimestre>
+                        <librosVendidos>27000</librosVendidos>
+                    <trimestre>2</trimestre>
+                        <librosVendidos>31400</librosVendidos>
+                    <trimestre>3</trimestre>
+                        <librosVendidos>40100</librosVendidos>
+                    <trimestre>4</trimestre>
+                        <librosVendidos>30000</librosVendidos>
+                </sur>
+            </region>
+        </datos_informe>
+    </informe>
+</editorial>

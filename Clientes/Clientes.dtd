@@ -4,12 +4,12 @@
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT nom_empleado (#PCDATA)>
 <!ELEMENT fech_alta (#PCDATA)>
-<!ELEMENT cliente (descripcion,num_viviendas,vivienda+)>
+<!ELEMENT cliente (desCliente,numero,vivienda+)>
 <!ATTLIST cliente codigo CDATA #REQUIRED>
-<!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT num_viviendas (#PCDATA)>
-<!ELEMENT vivienda (coste_vivienda, resumen, plazo_alta)>
+<!ELEMENT desCliente (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT vivienda (coste, resumen, plazo)>
 <!ATTLIST vivienda id CDATA #REQUIRED>
-<!ELEMENT coste_vivienda (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
 <!ELEMENT resumen (#PCDATA)>
-<!ELEMENT plazo_alta (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

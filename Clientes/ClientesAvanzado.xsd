@@ -1,0 +1,62 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Clientes" type="clientesDatos"/>
+        <xs:complexType name="clientesDatos">
+            <xs:sequence>
+                <xs:element name="Sede" type="SedeDatos" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="SedeDatos">
+            <xs:sequence>
+                <xs:element name="direccion" type="xs:string" maxOccurs="1"/>
+                <xs:element name="nom_empleado" type="xs:string"/>
+                <xs:element name="fech_alta" type="xs:date"/>
+                <xs:element name="cliente" type="clienteDatos"/>
+            </xs:sequence>
+            <xs:attribute name="cod_sede" type="codigo_sede" use="required"/>
+        </xs:complexType>
+        <xs:complexType name="clienteDatos">
+            <xs:sequence>
+                <xs:element name="descripcion" type="desc_cliente" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="numero" type="numero_viviendas"/>
+                <xs:element name="vivienda" type="viviendaDatos" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="codigo_cliente" use="required"/>
+        </xs:complexType>
+        <xs:complexType name="viviendaDatos">
+            <xs:sequence>
+                <xs:element name="coste" type="xs:positiveInteger"/>
+                <xs:element name="resumen" type="xs:string"/>
+                <xs:element name="plazo" type="xs:positiveInteger"/>
+            </xs:sequence>
+            <xs:attribute name="ID" type="vivienda_id" use="required"/>
+        </xs:complexType>
+        <!-- Definicion de elementos simples-->
+        <xs:simpleType name="codigo_sede">
+            <xs:restriction base="xs:string">
+                <xs:length value="8"/>
+                <xs:pattern value="[A-Z]{1}[0-9]{7}"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="codigo_cliente">
+            <xs:restriction base="xs:string">
+                <xs:length value="7"/>
+                <xs:pattern value="[A-Z]{3}-[0-9]{3}"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="desc_cliente">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Solvente"/>
+                <xs:enumeration value="Insolvente"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="numero_viviendas">
+            <xs:restriction base="xs:positiveInteger">
+                <xs:minInclusive value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="vivienda_id">
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9]{3}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+</xs:schema>

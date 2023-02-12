@@ -1,21 +1,33 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="moodulos">
+    <xs:element name="modulos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="modulo">
+                <xs:element name="modulo" maxOccurs="6">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string"/>
-                            <xs:element name="contenido" type="contenidoType"></xs:element>
+                            <xs:element name="contenidos" type="contenidosType"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="contenidoType">
+    <xs:complexType name="contenidosType">
         <xs:sequence>
-            <xs:element name="ud"></xs:element>
+            <xs:element name="ud" type="udType" maxOccurs="15"></xs:element>
         </xs:sequence>
     </xs:complexType>
+    <xs:complexType name="udType">
+        <xs:sequence>
+            <xs:element name="tipo" type="xs:string"/>
+            <xs:element name="descripcion" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="numUD" type="cod_ud"/>
+    </xs:complexType>
+    <xs:simpleType name="cod_ud">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

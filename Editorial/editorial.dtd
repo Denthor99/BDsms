@@ -1,0 +1,14 @@
+<!ELEMENT editorial (informe)>
+<!ELEMENT informe (cabecera_informe,datos_informe)>
+<!ELEMENT cabecera_informe (nombre_editorial,nombre_informe,descripcion,fecha_informe)>
+<!ELEMENT nombre_editorial (#PCDATA)>
+<!ELEMENT nombre_informe (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha_informe (#PCDATA)>
+<!ELEMENT datos_informe (region+)>
+<!ELEMENT region (norte,centro,sur)>
+<!ELEMENT norte ANY>
+<!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT librosVendidos (#PCDATA)>
+<!ELEMENT centro ANY>
+<!ELEMENT sur ANY>
